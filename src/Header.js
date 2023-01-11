@@ -44,7 +44,8 @@ function Header() {
         <Link to={!user && "/login"}>
           <div onClick={handleAuthentification} className="header__option">
             <span className="header__optionLineOne">
-              Hello, {user ? "Sign Out" : "Sign In"}
+              Hello, {!user ? "Guest" : user.email}
+              {user ? " Sign out" : " Sign in"}
             </span>
             <span className="header__optionLineTwo">
               <span className="header__optionLineTwo header__dropDown">
@@ -77,5 +78,6 @@ export default Header;
 
 // ?:Optionnal chainning, due to any reason u dont have the correct value or undefined, it wont freak out
 // {user ? "Sign Out" : "Sign In"} if the user is signed in then Sign him out otherwise Sign in
+// {!user ? "Guest" : user.email} if there's no user then use Guest if there's use user.email
 //{!user && "/login"} if no user then we push to the login page. If we only sign out it won't push to the login page, only if we
 //want to sign in.

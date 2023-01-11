@@ -1,0 +1,70 @@
+.payment {
+    background-color: white;
+    
+}
+
+.payment__container >h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray ;
+}
+
+.payment__container >h1 a {
+    text-decoration: none !important;
+}
+
+.checkout__section {
+    display: flex;
+    padding:2px;
+    
+}
+
+.checkout__logo{       
+    margin: 0 250px;
+    margin-top: 18px;
+    display: block;
+    position: relative;    
+    height: 31px;
+    width: 103px;
+}
+
+.payment__section {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment__step {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial,sans-serif;
+    margin:5px;
+}
+.payment__title {
+    flex:0.2
+}
+
+.payment__title >h3 {
+    margin:4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.payment__address, .payment__items, .payment__details {
+    flex:0.8
+}
+
+.checkout__section {    
+    border-color: #DDD!important;
+    border-style: solid!important;
+    border-width: 0 0 1px 0!important;
+    height: 60px;
+    background-position-y: -13px;
+    padding: 17px;
+}
+

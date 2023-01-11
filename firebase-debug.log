@@ -1,109 +1,69 @@
-[debug] [2023-01-07T00:57:47.079Z] ----------------------------------------------------------------------
-[debug] [2023-01-07T00:57:47.081Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
-[debug] [2023-01-07T00:57:47.081Z] CLI Version:   11.20.0
-[debug] [2023-01-07T00:57:47.081Z] Platform:      win32
-[debug] [2023-01-07T00:57:47.081Z] Node Version:  v16.14.2
-[debug] [2023-01-07T00:57:47.082Z] Time:          Fri Jan 06 2023 19:57:47 GMT-0500 (Eastern Standard Time)
-[debug] [2023-01-07T00:57:47.082Z] ----------------------------------------------------------------------
+[debug] [2023-01-11T01:56:52.062Z] ----------------------------------------------------------------------
+[debug] [2023-01-11T01:56:52.063Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-11T01:56:52.064Z] CLI Version:   11.20.0
+[debug] [2023-01-11T01:56:52.064Z] Platform:      win32
+[debug] [2023-01-11T01:56:52.064Z] Node Version:  v16.14.2
+[debug] [2023-01-11T01:56:52.065Z] Time:          Tue Jan 10 2023 20:56:52 GMT-0500 (Eastern Standard Time)
+[debug] [2023-01-11T01:56:52.065Z] ----------------------------------------------------------------------
 [debug] 
-[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
- 
+[debug] [2023-01-11T01:56:52.117Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-11T01:56:52.118Z] > authorizing via signed-in user (nourakabbara@gmail.com)
 [info] 
-[info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=453441368&redirect_uri=http%3A%2F%2Flocalhost%3A9005
-[info] 
-[info] Waiting for authentication...
-[debug] [2023-01-07T00:57:53.004Z] Error: spawn cmd ENOENT
-    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
-    at onErrorNT (node:internal/child_process:478:16)
-    at processTicksAndRejections (node:internal/process/task_queues:83:21)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-01-07T01:03:44.204Z] ----------------------------------------------------------------------
-[debug] [2023-01-07T01:03:44.206Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
-[debug] [2023-01-07T01:03:44.206Z] CLI Version:   8.15.0
-[debug] [2023-01-07T01:03:44.206Z] Platform:      win32
-[debug] [2023-01-07T01:03:44.206Z] Node Version:  v16.14.2
-[debug] [2023-01-07T01:03:44.207Z] Time:          Fri Jan 06 2023 20:03:44 GMT-0500 (Eastern Standard Time)
-[debug] [2023-01-07T01:03:44.207Z] ----------------------------------------------------------------------
-[debug] [2023-01-07T01:03:44.207Z] 
-[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
- 
-[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
-[info] 
-[info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=772454316&redirect_uri=http%3A%2F%2Flocalhost%3A9005
-[info] 
-[info] Waiting for authentication...
-[debug] [2023-01-07T01:03:46.670Z] Error: spawn cmd ENOENT
-    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
-    at onErrorNT (node:internal/child_process:478:16)
-    at processTicksAndRejections (node:internal/process/task_queues:83:21)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-01-07T01:04:09.677Z] ----------------------------------------------------------------------
-[debug] [2023-01-07T01:04:09.678Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --interactive
-[debug] [2023-01-07T01:04:09.678Z] CLI Version:   8.15.0
-[debug] [2023-01-07T01:04:09.678Z] Platform:      win32
-[debug] [2023-01-07T01:04:09.679Z] Node Version:  v16.14.2
-[debug] [2023-01-07T01:04:09.679Z] Time:          Fri Jan 06 2023 20:04:09 GMT-0500 (Eastern Standard Time)
-[debug] [2023-01-07T01:04:09.680Z] ----------------------------------------------------------------------
-[debug] [2023-01-07T01:04:09.680Z] 
-[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
- 
-[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
-[info] 
-[info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=847717166&redirect_uri=http%3A%2F%2Flocalhost%3A9005
-[info] 
-[info] Waiting for authentication...
-[debug] [2023-01-07T01:04:11.697Z] Error: spawn cmd ENOENT
-    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
-    at onErrorNT (node:internal/child_process:478:16)
-    at processTicksAndRejections (node:internal/process/task_queues:83:21)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-01-07T22:17:42.221Z] ----------------------------------------------------------------------
-[debug] [2023-01-07T22:17:42.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
-[debug] [2023-01-07T22:17:42.223Z] CLI Version:   8.15.0
-[debug] [2023-01-07T22:17:42.223Z] Platform:      win32
-[debug] [2023-01-07T22:17:42.223Z] Node Version:  v16.14.2
-[debug] [2023-01-07T22:17:42.224Z] Time:          Sat Jan 07 2023 17:17:42 GMT-0500 (Eastern Standard Time)
-[debug] [2023-01-07T22:17:42.224Z] ----------------------------------------------------------------------
-[debug] [2023-01-07T22:17:42.224Z] 
-[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
- 
-[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
-[info] 
-[info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=984663963&redirect_uri=http%3A%2F%2Flocalhost%3A9005
-[info] 
-[info] Waiting for authentication...
-[debug] [2023-01-07T22:17:49.376Z] Error: spawn cmd ENOENT
-    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
-    at onErrorNT (node:internal/child_process:478:16)
-    at processTicksAndRejections (node:internal/process/task_queues:83:21)
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2023-01-07T22:20:49.501Z] ----------------------------------------------------------------------
-[debug] [2023-01-07T22:20:49.502Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
-[debug] [2023-01-07T22:20:49.503Z] CLI Version:   8.15.0
-[debug] [2023-01-07T22:20:49.503Z] Platform:      win32
-[debug] [2023-01-07T22:20:49.503Z] Node Version:  v16.14.2
-[debug] [2023-01-07T22:20:49.504Z] Time:          Sat Jan 07 2023 17:20:49 GMT-0500 (Eastern Standard Time)
-[debug] [2023-01-07T22:20:49.504Z] ----------------------------------------------------------------------
-[debug] [2023-01-07T22:20:49.504Z] 
-[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
- 
-[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
-[info] 
-[info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1003404792&redirect_uri=http%3A%2F%2Flocalhost%3A9005
-[info] 
-[info] Waiting for authentication...
-[debug] [2023-01-07T22:20:57.998Z] Error: spawn cmd ENOENT
-    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
-    at onErrorNT (node:internal/child_process:478:16)
-    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\noura\React Projects\amazon-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-01-11T02:00:12.624Z] ----------------------------------------------------------------------
+[debug] [2023-01-11T02:00:12.625Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-01-11T02:00:12.626Z] CLI Version:   11.20.0
+[debug] [2023-01-11T02:00:12.626Z] Platform:      win32
+[debug] [2023-01-11T02:00:12.626Z] Node Version:  v16.14.2
+[debug] [2023-01-11T02:00:12.627Z] Time:          Tue Jan 10 2023 21:00:12 GMT-0500 (Eastern Standard Time)
+[debug] [2023-01-11T02:00:12.627Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-11T02:00:12.689Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-11T02:00:12.689Z] > authorizing via signed-in user (nourakabbara@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-01-11T02:00:12.701Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-01-11T02:00:12.702Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-01-11T02:00:12.702Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-01-11T02:00:12.708Z] [hub] writing locator at C:\Users\noura\AppData\Local\Temp\hub-clone-f8eee.json
+[debug] [2023-01-11T02:00:12.730Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-01-11T02:00:12.731Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-01-11T02:00:12.731Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2023-01-11T02:00:12.833Z] Error: Cannot find module 'C:\Users\noura\React Projects\amazon-clone\functions\package.json'
+Require stack:
+- C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\commandUtils.js
+- C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\database-get.js
+- C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at FunctionsEmulator.getNodeBinary (C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:636:21)
+    at FunctionsEmulator.start (C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:192:39)
+    at Function.start (C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\registry.js:18:24)
+    at startEmulator (C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:252:44)
+    at Object.startAll (C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:349:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\noura\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\emulators-start.js:32:43
 [error] 
 [error] Error: An unexpected error has occurred.
