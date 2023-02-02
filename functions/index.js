@@ -17,5 +17,27 @@ app.use(express.json());
 //3-API routes
 app.get("/", (request, response) => response.status(200).send("hello world"));
 
+app.get("/noura", (request, response) =>
+  response.status(200).send("What's up Noura!")
+);
+
+app.post("/payments/create", async (request, response) => {
+  const total = request.query.total;
+
+  console.log("Payment Request Received! >>> for this amount >>>", total);
+
+  const paymentIntent = await stripe.paymentIntents.create({
+    amount: total, //subunits of the currency
+    currency: "usd",
+  });
+
+  //OK - Created sthg
+  response.status(201).send({
+    clientSecret: paymentIntent.client_secret,
+  });
+});
 //4-Listen command
 exports.api = functions.https.onRequest(app);
+
+// Example endpoint, it's a local API endpoint
+//http://127.0.0.1:5001/clone-f8eee/us-central1/api
