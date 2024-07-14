@@ -1,3 +1,7 @@
+# Amazon Clone
+
+This project is a basic clone of Amazon, featuring a landing page where you can add to your shopping cart, a page to sign-in and a check-out page.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
